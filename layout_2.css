@@ -24,4 +24,9 @@
   footer {
     background-color: #570a57;
   }
-  
+
+  main {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
