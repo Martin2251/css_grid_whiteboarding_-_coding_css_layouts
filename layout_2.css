@@ -25,6 +25,14 @@
     background-color: #570a57;
   }
 
+  header,
+  section,
+  footer{
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+  }
+
   main {
     display: grid;
     height: 100vh;
