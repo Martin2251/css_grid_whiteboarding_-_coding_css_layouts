@@ -1,7 +1,7 @@
 .body{
     display: grid;
     grid-template-columns: repeat(3, 45rem);
-  
+  /* number of colums and second is dimension this only works if they are the same */
     /* row-gap: 5rem;
     column-gap: 2rem; */
   
