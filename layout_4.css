@@ -16,3 +16,41 @@
   li {
     list-style: none;
   }
+
+  .pricing {
+    display: grid;
+    grid-template-columns: repeat(4, 25rem);
+    gap: 2rem;
+  
+    /* justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+  
+    height: 100vh;
+    /* align-content: center;
+    align-content: end;
+    align-content: start; */
+  
+    /* <align-content> <justify-content> */
+    place-content: center space-between;
+  }
+
+  .pricing__table {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+  
+    display: grid;
+    row-gap: 2rem;
+  
+    /* justify-items: center;
+    justify-items: end;
+    justify-items: start;
+  
+    height: 100vh;
+    align-items: center;
+    align-items: end;
+    align-items: start; */
+  }
